@@ -22,8 +22,20 @@ These are the key learnings for this week:
 
  **WEEK 1 UNIT 4**
  CREATING A CONFIGURABLE APP COMPONENT
- •	The component file is named Component.js.
- •	Together with all UI assets of the app, the component is located in the webapp folder.
- •	If the index.html file is used productively, it is located in the webapp folder.
- •	The descriptor file is named manifest.json and located in the webapp folder.
- •	Use translatable strings for the title and the description of the app.
+ -	The component file is named Component.js.
+ -	Together with all UI assets of the app, the component is located in the webapp folder.
+ -	If the index.html file is used productively, it is located in the webapp folder.
+ -	The descriptor file is named manifest.json and located in the webapp folder.
+ -	Use translatable strings for the title and the description of the app.
+
+ **WEEK 1 UNIT 5**
+ MANAGING DATA MODELS AND INTERNATIONALIZATION
+ -	we have valueLiveUpdate enabled on the input field,
+ -	both controls’ properties are bound to the same property within the JSON model,
+ -	And the model uses a two-way binding.
+ -	The resource model for internationalization is registered with name i18n.
+ -	The default filename is i18n.properties.
+ -	Resource bundle keys are written in (lower) camelCase.
+ -	Resource bundle values can contain parameters like {0}, {1}, {2}, …
+ -	Never concatenate strings that are translated, always use placeholders.
+ -	Use Unicode escape sequences for special characters.
