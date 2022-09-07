@@ -6,6 +6,11 @@ These are the key learnings for this week:
  - You’ll learn about the main development concepts of SAPUI5. We’ll add many layout and UI controls and introduce the Model View Controller (MVC) concept to our app.
  - We’ll structure our application project with the application descriptor and a component. And we’ll introduce essential features to create enterprise-grade apps such as data binding and internationalization.
 
- **First Ex**
+ **WEEK 1 UNIT 1**
  - 1.Open SAP Web IDE
  - 2.Bootstrap
+
+ **WEEK 1 UNIT 2**
+ DEFINING THE UI USING CONTROLS AND VIEWS
+ - 1.View Controls
+ - 2.Controls
