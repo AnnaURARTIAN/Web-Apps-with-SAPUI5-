@@ -14,3 +14,8 @@ These are the key learnings for this week:
  DEFINING THE UI USING CONTROLS AND VIEWS
  - 1.View Controls
  - 2.Controls
+
+ **WEEK 1 UNIT 3**
+ Exercise: Structuring with Controllers and Modules
+ - 1.Controllers
+ - 2.Modules
