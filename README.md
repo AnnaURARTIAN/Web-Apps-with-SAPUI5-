@@ -19,3 +19,11 @@ These are the key learnings for this week:
  Exercise: Structuring with Controllers and Modules
  - 1.Controllers
  - 2.Modules
+
+ **WEEK 1 UNIT 4**
+ CREATING A CONFIGURABLE APP COMPONENT
+ •	The component file is named Component.js.
+ •	Together with all UI assets of the app, the component is located in the webapp folder.
+ •	If the index.html file is used productively, it is located in the webapp folder.
+ •	The descriptor file is named manifest.json and located in the webapp folder.
+ •	Use translatable strings for the title and the description of the app.
