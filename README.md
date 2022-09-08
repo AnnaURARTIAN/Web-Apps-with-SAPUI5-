@@ -39,3 +39,9 @@ These are the key learnings for this week:
  -	Resource bundle values can contain parameters like {0}, {1}, {2}, …
  -	Never concatenate strings that are translated, always use placeholders.
  -	Use Unicode escape sequences for special characters.
+ 
+  **WEEK 1 UNIT 6**
+  Containers and Layout
+  -	Layout	
+  - Icon Library	
+  - Margins and Paddings	
