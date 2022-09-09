@@ -16,8 +16,7 @@
                         selectedKey="db"
                         >
 						<items>
-							<IconTabFilter id="start" 
-    text="{i18n>gettingStartedFilter}">
+							<IconTabFilter id="start"  text="{i18n>gettingStartedFilter}">
                             <Carousel>
                                 <pages>
       <Image 	src="https://miro.medium.com/max/1400/1*U-R58ahr5dtAvtSLGK2wXg.png"
@@ -86,9 +85,16 @@
                             <IconTabFilter
                     text="{i18n>dataBindingFilter}" key="db">
                     <content>
-                        <List
-                            headerText="{i18n>productListTitle}"
+                        <List 
+                            id="productsList"
                             items="{invoice>/Products}">
+                            <headerToolbar>
+                                <Toolbar>
+                                    <Title text="{i18n>productListTitle}"/>
+                                    <ToolbarSpacer/>
+                                    <SearchField width="50%" search="onFilterProducts"/>
+                                 </Toolbar>
+                            </headerToolbar>
 						<items>
 							<ObjectListItem
 								title="{invoice>ProductName}"

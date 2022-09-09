@@ -68,6 +68,12 @@ These are the key learnings for you this week:
 
  **WEEK 2 UNIT 3**
  AUTOMATIC CONVERSION WITH DATA TYPES
- 
+
  - 1.Usage of Data Types for Formatting
  - 2.Usage of Types for Form Validation	
+
+**WEEK 2 UNIT 4**
+SORTING, GROUPING AND FILTERING
+ - 1Filtering	
+ - 2Sorting and Grouping
+
