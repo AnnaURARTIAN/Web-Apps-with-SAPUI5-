@@ -66,3 +66,8 @@ These are the key learnings for you this week:
   - 1.Expression Binding	
   - 2.Custom Formatter	
 
+ **WEEK 2 UNIT 3**
+ AUTOMATIC CONVERSION WITH DATA TYPES
+ 
+ - 1.Usage of Data Types for Formatting
+ - 2.Usage of Types for Form Validation	
