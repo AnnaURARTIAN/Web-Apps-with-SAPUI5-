@@ -45,3 +45,24 @@ These are the key learnings for this week:
   -	Layout	
   - Icon Library	
   - Margins and Paddings	
+
+# Week 2
+These are the key learnings for you this week:
+
+ - We’ll connect to an OData back-end service to display a list of products in your app project.     Using this service, we’ll explore the powerful data binding concepts of SAPUI5. They are an abstraction to the underlying data and make it easy to define operations such as sorting and filtering on the data model.
+ - We’ll learn about property binding, aggregation binding, and context binding, the three binding modes that are essential when developing apps with SAPUI5.
+ - We’ll explore the OData service of our development scenario and see how to debug common issues.
+
+ **WEEK 2 UNIT 1**
+ USING A REMOTE SERVICE WITH AGGREGATION BINDING
+
+ - 1.Verify your destination to backend system ES5
+ - 2.USE the Service in your app
+ - 3.(Optional) Use mock server if you have a slow internet connection
+
+ **WEEK 2 UNIT 2**
+  WORKING WITH EXPRESSIONS AND FORMATTERS
+
+  - 1.Expression Binding	
+  - 2.Custom Formatter	
+

@@ -12,7 +12,9 @@
 				<content>
 					<IconTabBar
 						id="idTopLevelIconTabBar"
-                        class="sapUiResponsiveContentPadding">
+                        class="sapUiResponsiveContentPadding"
+                        selectedKey="db"
+                        >
 						<items>
 							<IconTabFilter id="start" 
     text="{i18n>gettingStartedFilter}">
@@ -75,6 +77,29 @@
                                         icon="sap-icon://save"/>
 								</Toolbar>
 							</IconTabFilter>
+                            <IconTabFilter
+                    text="{i18n>dataBindingFilter}" key="db">
+                    <content>
+                        <List
+                            headerText="{i18n>productListTitle}"
+                            items="{invoice>/Products}">
+						<items>
+							<ObjectListItem
+								title="{invoice>ProductName}"
+								number="{invoice>UnitPrice}"
+                                numberState="{= ${invoice>UnitPrice} > 20 ? 'Error' : 'Success'}"
+								intro="{invoice>ProductID}">
+                                <firstStatus>
+                                		<ObjectStatus text="{
+										path: 'invoice>ReorderLevel',
+						                formatter: '.formatter.statusText'
+										}"/>
+								</firstStatus>
+                            </ObjectListItem>
+						</items>
+                        </List>
+                    </content>
+			</IconTabFilter>
 						</items>
 					</IconTabBar>
 				</content>
@@ -82,4 +107,3 @@
 		</pages>
 	</App>      
 </mvc:View>
-
