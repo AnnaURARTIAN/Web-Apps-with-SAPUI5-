@@ -22,6 +22,16 @@ sap.ui.define([
 			MessageToast.show(sMsg);
 		},
         
+        onItemSelected: function(oEvent) {
+            
+            var oSelectedItem = oEvent.getSource();
+            var oContext = oSelectedItem.getBindingContext();
+            console.log(oSelectedItem);
+            var sPath = oContext.getPath();
+            var oProductDetailPanel = this.byId("productDetailsPanel");
+            oProductDetailPanel.bindElement({ path: sPath });
+            this.byId("productDetailsPanel").setVisible(true); 
+        },
 
 		onFilterProducts : function (oEvent) {
 			var aFilter = [], sQuery = oEvent.getParameter("query"),

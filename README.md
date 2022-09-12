@@ -77,3 +77,10 @@ SORTING, GROUPING AND FILTERING
  - 1Filtering	
  - 2Sorting and Grouping
 
+**WEEK 2 UNIT 5**
+BINDING CONTEXTS WITH ELEMENT BINDING
+
+- 1.Add Paging to the List
+- 2.Adding the Details Panel
+- 3.Binding the Details Panel
+
