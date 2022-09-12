@@ -84,3 +84,9 @@ BINDING CONTEXTS WITH ELEMENT BINDING
 - 2.Adding the Details Panel
 - 3.Binding the Details Panel
 
+**WEEK 2 UNIT6**
+Exercises: Working with OData Services
+
+- 1.Disable Batch Processing for Debugging
+- 2.Display Data From a Related Entity Using Expand
+- 3.(Optional) Update Mock Server Metadata
